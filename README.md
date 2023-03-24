@@ -1,2 +1,6 @@
 # guess-the-number
-Tente acertar o número usando reconhecimento de voz : )
+Observações:
+* A API de reconhecimento de fala usada no projeto esta em fase de testes e pode não reconhecer alguns número em português;
+* O Firefox não oferece suporte ao serviço de reconhecimento de fala usado.
+  
+  
