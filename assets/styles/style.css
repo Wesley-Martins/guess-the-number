@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+:root {
+    --font-family: 'Josefin Sans', sans-serif;
+    --color-primary: #DFCFF3;
+    --color-secondary: #4B4453;
+}
+
+body {
+    background: var(--color-primary);
+    color: var(--color-secondary);
+    font-family: var(--font-family);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+.message {
+    margin-top: 60px;
+    min-height: 40vh;
+}
+
+.message__label {
+    font-size: 2rem;
+    display: block;
+}
+
+.message__box {
+    border: 2px solid var(--color-secondary);
+    font-size: 3rem;
+    display: inline-block;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+.message__result {
+    font-size: 2rem;
+}
+
+.message__attempts {
+    font-size: 2rem;
+    display: inline-block;
+    margin-top: 4rem;
+}
+
+#play-again-btn {
+    cursor: pointer;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    padding: 10px 20px;
+}
+
+#secret {
+    background: black;
+    display: grid;
+    border-radius: 8px;
+    align-items: center;
+    height: 95vh;
+    width: 100%;
+}
